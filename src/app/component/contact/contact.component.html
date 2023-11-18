@@ -1,0 +1,111 @@
+<div class="contact d-flex justify-content-between px-5 py-2">
+    <div class="head p-2 text-white align-items-center">
+        <h1>Contact US</h1>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item active " aria-current="page">Home</li>
+                <li class="breadcrumb-item active " aria-current="page">Contact</li>
+            </ol>
+        </nav>
+    </div>
+    <div class="btn-1">
+        <button class="btn btn-danger p-4">Donate Now</button>
+    </div>
+</div>
+<div class="contact-container m-5">
+    <h1 class="text-center p-2">Contact US</h1>
+    <p class="text-center">Thank you for contacting Transparent Hands. We love hearing from you and will be happy to
+        assist with any inquiries you may have.<br>
+        To save your time, please visit our <b><span>FAQs</span></b> page to see if your question has already been
+        answered.
+    </p>
+    <p class="text-center"><b>
+            Please Note: Transparent Hands provides free surgeries and treatments of poor people in Pakistan through
+            their
+            on board hospitals only.<br>
+            We don't provide funds to anyone for any purpose.</b>
+    </p>
+</div>
+<div class="container-2 row p-5 m-5 text-center">
+    <div class="col-md-4">
+        <div class="contact-card bg-opacity-25 rounded  bg-success p-2">
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            <p>Telephone No</p>
+            <h4 style="line-height:24px;"><b>
+                    +1 (703) 843-0050 </b></h4>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="contact-card bg-opacity-25 rounded  bg-success p-2">
+
+            <i class="fa fa-whatsapp" aria-hidden="true"></i>
+            <p>Whatsapp No</p>
+            <h4 style="line-height:24px;"><b>
+                    +92-309-666-6025 </b></h4>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="contact-card bg-opacity-25 rounded  bg-success p-2">
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+            <p>Email Us</p>
+            <h4 style="line-height:24px;"><b>
+                    info@transparenthands.org </b></h4>
+        </div>
+    </div>
+</div>
+
+<div class="container-1 bg-opacity-10 my-2">
+    <div class="container">
+        <div class="col-md-5 offset-md-1 mb-3">
+            <form>
+                <mat-card>
+                    <mat-card-content>
+                        <form class="example-form" [formGroup]="contactForm" (ngSubmit)="contact()">
+                            <!-- User name -->
+                            <mat-form-field class="example-full-width">
+                                <mat-label>Name</mat-label>
+                                <input matInput formControlName="name">
+                            </mat-form-field>
+
+                            <!-- User email -->
+                            <mat-form-field class="example-full-width">
+                                <mat-label>Email</mat-label>
+                                <input matInput formControlName="email">
+                            </mat-form-field>
+                            <!-- Select Option -->
+                            <mat-form-field class="example-full-width">
+                                <mat-label>Select one </mat-label>
+                                <select matNativeControl formControlName="select" required>
+                                  <option value="query">Query Nature*</option>
+                                  <option value="donor">Donor</option>
+                                  <option value="volunteer">Volunteer</option>
+                                  <option value="other">Other</option>
+                                </select>
+                              </mat-form-field>
+                            <!-- subject -->
+                            <mat-form-field class="example-full-width">
+                                <mat-label>Subject</mat-label>
+                                <input matInput formControlName="subject">
+                            </mat-form-field>
+                            <!-- Address -->
+                            <mat-form-field class="example-full-width">
+                                <input matInput #message maxlength="256" placeholder="Ex. I need help with..." formControlName="message">
+                                <mat-hint align="start"><strong>Don't disclose personal info</strong> </mat-hint>
+                                <mat-hint align="end">{{message.value.length}} / 256</mat-hint>
+                            </mat-form-field>
+
+                            <!-- User phone no -->
+
+
+
+
+                            <!-- button -->
+                            <button class=" w-100 btn btn-success mt-5 mx-0">Send Now</button>
+                        </form>
+
+                    </mat-card-content>
+                </mat-card>
+            </form>
+        </div>
+    </div>
+</div>

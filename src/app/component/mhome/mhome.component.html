@@ -1,0 +1,55 @@
+<div class="contact d-flex justify-content-between px-5 py-2 align-items-center">
+    <div class="head p-2 text-white align-items-center">
+        <h1>Welcome To Donation Site</h1>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item active" aria-current="page">You are now part of Transparent Hands Family!
+                    Help us change lives.</li>
+            </ol>
+        </nav>
+    </div>
+    <div class="btn-1">
+        <button class="btn btn-danger p-4" routerLink="/donate">Donate Now</button>
+    </div>
+</div>
+
+<div class="sidebar-menu bg-dark bg-opacity-10 my-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="sidemenu">
+                    <a routerLink="/dashboard" routerLinkActive="active" 
+                    [routerLinkActiveOptions]="{exact: true}">
+                        <li>Dashboard</li>
+                    </a>
+                    <a routerLink="/donation" routerLinkActive="active" 
+                    [routerLinkActiveOptions]="{exact: true}">
+                        <li>Donation Summary</li>
+                    </a>
+                    <a routerLink="/tax" routerLinkActive="active" 
+                    [routerLinkActiveOptions]="{exact: true}">
+                        <li>Download Tax Receipts</li>
+                    </a>
+                    <a routerLink="/commitment" routerLinkActive="active" 
+                    [routerLinkActiveOptions]="{exact: true}">
+                        <li>Commitments</li>
+                    </a>
+                    <!--<a href="<?/*=$profile_page_url;*/?>?tab=archive"><li >Archive</li></a>-->
+                    <a routerLink="/recurring" routerLinkActive="active" 
+                    [routerLinkActiveOptions]="{exact: true}">
+                        <li>Recurring Donation</li>
+                    </a>
+                    <a routerLink="/profile" routerLinkActive="active" 
+                    [routerLinkActiveOptions]="{exact: true}">
+                        <li>Profile</li>
+                    </a>
+
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</div>
+<router-outlet></router-outlet>
+
+

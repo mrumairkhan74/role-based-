@@ -1,0 +1,936 @@
+.container {
+    /* border: 2px solid #0b3f01; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img {
+    width: 50%;
+    display: block;
+    /* border: 2px solid #0b3f01; */
+    margin: 10px;
+}
+
+.tab-1 {
+    /* border: 2px solid #0b3f01; */
+    margin: 10px;
+    padding: 10px 30px;
+}
+
+.tab-2 h5 {
+    font-size: 1.2rem;
+}
+
+.nav-link {
+    color: #0b3f01;
+    font-weight: 600;
+}
+
+.nav-link.active {
+    border-top: 2px solid #0b3f01;
+
+}
+
+.btn {
+    padding: 5px;
+}
+
+.para {
+    color: #0b3f01;
+    letter-spacing: 2px;
+}
+
+/* About Container */
+.container-about {
+    display: block;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.container-about h3 {
+    font-size: 2rem;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+
+.about-btn button {
+    display: block;
+    width: 100%;
+    margin: auto 10px;
+    font-size: 1.1rem;
+    padding: 10px;
+}
+
+span {
+    color: #1d9405;
+}
+
+.container-about h1 {
+    color: #89020d;
+    font-size: 3.4rem;
+    display: block;
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* checkout container */
+.text h3 {
+    font-size: 4rem;
+    display: block;
+    padding: 10px 0px;
+    
+}
+
+.para-1 {
+    display: block;
+    font-size: 1.4rem;
+    width: 100%;
+}
+
+.img-2 img {
+    border-radius: 30px;
+}
+
+/* About-Surgeries */
+.surgeries {
+    display: block;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    padding: 10px;
+}
+
+.surgeries p {
+    font-size: 2.4rem;
+    display: block;
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.surgeries h6 {
+    font-size: 15px;
+    text-align: center;
+}
+
+/* container-info */
+.conatiner-info {
+    display: block;
+    width: 100%;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+}
+
+.conatiner-info p {
+    font-size: 1.5rem;
+    display: block;
+    margin: 10px;
+    width: 100%;
+}
+
+.conatiner-info .btn {
+    font-size: 1.3rem;
+    margin: 5px;
+}
+
+/* Medical */
+.medical h1 {
+    font-size: 2rem;
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+
+.medical-1 {
+    margin: 10px;
+    box-shadow: .2px 0.2px 3px 0.1px #000;
+}
+
+.medical-1 img {
+    display: block;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.medical-1 h3 {
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.medical-1 p {
+    font-size: 13px;
+}
+
+.medical-1 p a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+
+.medical .btn-1 {
+    display: block;
+    width: 10%;
+    padding: 10px;
+    background-color: none;
+    margin: 10px auto;
+    border: 2px solid #000;
+    border-radius: 5px;
+}
+
+/* info */
+.main-imp {
+    display: block;
+    margin: auto 100px;
+    padding: 20px;
+}
+
+.main-imp img {
+    padding: 10px;
+}
+
+.main-imp .text {
+    margin: 5px;
+}
+
+/* upcoming medical camps */
+.main-medi img {
+    width: 30%;
+}
+
+.text-medi p a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.text-medi {
+    display: block;
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+}
+
+/* medical procedure */
+.medical-pro {
+    display: block;
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+}
+
+.medical-pro h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 20px;
+    letter-spacing: 2px;
+}
+
+.green-text {
+    color: #138524;
+    font-size: 2rem;
+}
+
+.medi-4 ul li {
+    color: #138524;
+}
+
+.ul-1 {
+    margin: 10px;
+    padding: 12px;
+}
+
+.ul ul li a {
+    padding: 5px;
+    text-decoration: none;
+    color: #fff;
+    margin: 5px;
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+/* blog container */
+.blog-container{
+    display: block;
+    justify-content:center;
+    width: 100%;
+    align-items: center;
+    margin: auto;
+    padding:auto 100px;
+}
+.blog-container h1{
+    font-size: 3rem;
+    display: block;
+    margin: auto;
+    width: 100%;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.blog-container button{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+    padding: 15px;
+    border-radius: 50px;
+    font-size: 1.2rem;
+}
+.blog-1 img{
+    display: block;
+    width: 35%;
+}
+.blog-2{
+    padding:11.5px;
+    width: 50%;
+}
+.blog-2 h3{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.blog-2 p{
+    font-size: 1rem;
+    padding: 10px;
+    color: #504c4c;
+}
+.blog-2 span{
+    display: block;
+    width: 100%;
+    margin: auto;
+    font-size: 1.2rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+.blog-2 p a{
+    text-decoration: none;
+    font-weight: 700;
+    color: #000;
+}
+/* who-container */
+.who-container{
+    display: block;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.who-container h1{
+    font-size: 3rem;
+    display: block;
+    font-weight: 700;
+    font-family:'monospace';
+    text-align: center;
+    width: 100%;
+    margin:20px  auto;
+}
+.scroll{
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+.head-1{
+    overflow: scroll;
+    /* overflow: hidden; */
+    display: block;
+    width: 80%;
+    margin: auto;
+    height: 250px;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.head-1 h2{
+    color: #138524;
+}
+.head-1 a{
+    text-decoration: none;
+}
+.head-1 p,
+.head-1 p ul li
+{
+    font-size: 14px;
+}
+/* Press and awards */
+.press img{
+    width: 50%;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+}
+.press{
+    display: block;
+    margin: auto;
+    width: 70%;
+    padding: 50px;
+}
+.press h1{
+    font-size: 3rem;
+    font-weight: 600;
+    margin:10px;
+    display: block;
+}
+.row{
+    display: block;
+    justify-content: center;
+    width: 100%;
+    margin: 5px 0px;
+    padding:10px;
+}
+.row h2{
+    font-size: 1rem;
+    display: block;
+    width: 100%;
+    margin:auto;
+}
+.row p{
+    font-size: 12px;
+}
+.row p a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+/* success continaer */
+.success-container{
+    background-image: url(../../../assets/bg01.jpeg);
+    background-repeat: repeat-y;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 400px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .success-container h1{
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    width: 100%;
+    margin: 10px 0px 20px 0px;
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .success{
+    display: block;
+    background-color: #181918;
+    width: 80%;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+  }
+  .story img{
+    width: 30%;
+    display: block;
+    margin: 20px;
+  }
+  .story-1 h5{
+    display: block;
+    width: 100%;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin:40px 0 0 auto;
+    padding: 20px 10px;
+  }
+  .story-1 p{
+    display: block;
+    width: 100%;
+    font-size: 1.3rem;
+    color: #716f6f;
+    font-weight: 600;
+    margin: auto;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+  }
+  .story-1 strong{
+    display: block;
+    width: 100%;
+    margin: 20px auto;
+    font-size: 2.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+  }
+
+/* testimonal */
+.testimonials-container{
+    padding: 10px 100px;
+}
+.heading{
+    display: block;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.heading h1{
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+.heading h1 small{
+    font-size: 40%;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.heading h4{
+    font-size: 1.7rem;
+}
+.testi{
+    display: block;
+    width: 100%;
+    margin: auto;
+    padding: 0px 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.testi p{
+    display: block;
+    width: 90%;
+    margin: auto;
+    padding:20px;
+}
+.testi p a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+}
+/* irs */
+
+.irs{
+    background-color: #15a255;
+    background-repeat: repeat-y;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 150px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .irs-1 img{
+    display: block;
+    width: 80%;
+    margin: auto;
+  }
+  .irs-2 p{
+    display: block;
+    margin: 20px 0px 0px auto;
+    width: 100%;
+  }
+  .irs-2 p li{
+    list-style: none;
+    font-size: 1.3rem;
+    color: #fff;
+    display: block;
+    width: 100%;
+    padding: 0px 0px 5px 0px;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .irs-2 p li strong{
+    font-size: 1.5rem;
+    color: #fff;
+  }
+  .irs-2 p li a{
+    text-decoration: underline;
+    color: #fff;
+    font-size: 1.3rem;
+  }
+
+
+@media (max-width:767px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .img {
+        width: 50%;
+        padding: 10px;
+    }
+
+    .tab-content {
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+
+    .tab-1 {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .tab-2 h5 {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+
+    .progress {
+        width: 100%;
+    }
+
+    .btn {
+        padding: 5px;
+    }
+
+    .para {
+        color: #0b3f01;
+        letter-spacing: 2px;
+    }
+
+    .row h5 {
+        font-size: 1.2rem;
+    }
+
+    .img-1 img {
+        width: 70px;
+    }
+/* aboout */
+    .container-about {
+        display: block;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .container-about h3 {
+        font-size: 1.5rem;
+    }
+
+    .about-btn {
+        flex-direction: column;
+        margin: auto;
+        width: 100%;
+        display: block;
+        justify-content: center;
+    }
+
+    .about-btn button {
+        width: 80%;
+        display: block;
+        margin: auto;
+        font-size: 15px;
+    }
+/* checkout */
+    .container-checkout {
+        flex-direction: column;
+    }
+
+    .text {
+        margin: 10px;
+        padding: 5px;
+    }
+
+    .text h3 {
+        font-size: 3rem;
+        text-align: center;
+        padding: 10px 0px ;
+    }
+
+    .para-1{
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    .img-2 img {
+        width: 90%;
+        border-radius: 17px;
+    }
+
+    /* Container-Surgires */
+    .container-surgires {
+        display: none;
+    }
+
+    /* conatiner-info  */
+    .conatiner-info p {
+        font-size: 1.2rem;
+        padding: 20px;
+        align-items: center;
+    }
+
+    .conatiner-info .btn {
+        font-size: 1rem;
+        margin: 10px;
+    }
+
+    /* medical-info */
+    .medical-container {
+        flex-direction: column;
+    }
+
+    .medical .btn-1 {
+        width: 20%;
+    }
+
+    .medical-1 img {
+        width: 70%;
+    }
+
+    .medical-1 h3 {
+        font-size: 1.2rem;
+        padding: 10px auto;
+    }
+
+    /* info */
+    .main-imp {
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+
+    .main-imp img {
+        display: none;
+    }
+
+    .text h2 {
+        display: block;
+        width: 100%;
+        font-size: 2rem;
+
+    }
+
+    /* Medical camp upcomin */
+    .main-medi {
+        flex-direction: column;
+    }
+
+    .text-medi {
+        display: block;
+        width: 100%;
+        margin: 10px auto;
+        padding: 10px;
+
+    }
+
+    .main-medi img {
+        width: 100%;
+    }
+
+    /* medical procedure */
+    .container-medi {
+        flex-direction: column;
+    }
+
+    .ul-1 {
+        flex-direction: column;
+    }
+
+    .green-text {
+        margin: 10px;
+        padding: 0px 10px;
+        display: block;
+        width: 100%;
+        font-size: 1.5rem;
+    }
+
+    .medi-4 .btn {
+        font-size: 1.2rem;
+    }
+
+    /* blog post */
+    .blog-container {
+        display: block;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .blog-container h1 {
+        font-size: 3rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 700;
+    }
+    .blog-1{
+        flex-direction: column;
+    
+    }
+    .blog-1 img{
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+    .blog-2 h3{
+        font-size: 1.3rem;
+        display: block;
+        margin: auto 10px;
+        width: 100%;
+        font-weight: 600;
+    }
+    .blog-2{
+        width: 100%;
+    }
+    .blog-2 span{
+        display: block;
+        width: 100%;
+        margin: auto 10px;
+        font-size: 17px;
+        font-weight: 700;
+        letter-spacing: 2px;
+    }
+    .blog-2 p{
+        font-size: 15px;
+        display: block;
+        width: 100%;
+        color: #504c4c;
+    }
+    .blog-2 p a{
+        text-decoration: none;
+        color: #000;
+        font-weight: 600;
+        letter-spacing: 2px;
+    }
+    /* Who container */
+    .who-container{
+        display: block;
+        width: 100%;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .who-container h1{
+        display: block;
+        align-items: center;
+        width: 100%;
+        margin:20px auto;
+        text-align: center;
+        font-size: 3rem;
+        font-weight: 700;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .head-1{
+        display: block;
+        width: 100%;
+        padding: 10px;
+        margin: 10px auto ;
+    }
+    .head-1 h2{
+        font-size: 1.5rem;
+    }
+    .head-1 p
+    {
+        font-size: 14px;
+        display: block;
+        width: 100%;
+        padding:auto 20px;
+        letter-spacing: 1px;
+    }
+    /* press and awards */
+   .section-award{
+    flex-direction: column;
+    margin: 20px;
+   }
+   .press{
+    display: block;
+    width: 100%;
+    padding: 0px;
+    margin:30px 0px;
+   }
+   .row{
+    display: block;
+    width: 100%;
+   }
+   .row-2{
+    flex-direction: column;
+    width: 100%;
+    margin: 20px auto;
+    padding: 0%;
+   }
+   .row-2 img{
+    width: 80%;
+   }
+   /* success story */
+   .success{
+    width: 80%;
+   }
+   .success-container h1{
+    margin: 0;
+    font-size: 2rem;
+    display: block;
+    width: 100%;
+    margin: 5px 0px 10px 0px;
+   }
+   .success-container{
+    height: 250px;
+   }
+   .story img{
+    width: 100px;
+   }
+   .story-1 h5{
+    font-size: 12px;
+    margin: 10px 0 0 0;
+    padding: 0px;
+   }
+   .story-1 p{
+    font-size: 12px;
+    padding: 0px;
+   }
+.story-1 strong{
+    font-size: 1.5rem;
+    margin: auto;
+}
+/* testimonals */
+    .testimonials-container{
+        flex-direction: column;
+        padding: 0px;
+        text-align: left;
+        margin-top: 10px;
+    }
+    .heading{
+        display: block;
+        margin:10px  auto;
+        width: 100%;
+    }
+    .heading h1{
+        display: block;
+        width: 100%;
+        font-weight: 800;
+        margin: 0px;
+    }
+    .heading h4{
+        display: block;
+        width: 100%;
+        margin: 0px 2px;
+    }
+    /* irs */
+    .irs{
+        height: 190px;    
+    }
+    .irs-3{
+        flex-direction: column;
+        padding: 10px 20px;
+    }
+    .irs-1 img{
+        width: 30%;
+    }
+    .irs-2{
+        padding: 0px 20px;
+    }
+    .irs-2 p li{
+        font-size: 16px;
+        align-items: center;
+        font-weight: 600;
+    }
+    .irs-2 p li strong{
+        font-size: 16px;
+    }
+    .irs-2 p li a{
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 2px;
+    }
+}

@@ -1,0 +1,71 @@
+.contact {
+  background-image: url(../../../assets/bg01.jpeg);
+  background-repeat: repeat-y;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 110px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin: 12px auto;
+}
+.contact-container h1{
+  font-size: 3rem;
+  font-family: monospace;
+  font-weight: 700;
+
+}
+.breadcrumb-item{
+  color: #fff;
+}
+.contact-container p{
+
+  font-size: 1rem;
+  color: #5f655e;
+  font-family: 'Times New Roman', Times, serif;
+}
+.contact-container span{
+  color: #028c17;
+}
+.contact-card p{
+  font-size: 1rem;
+}
+.contact-card h4{
+  font-size: 1.5rem;
+}
+
+
+.header{
+    font-size: 3rem;
+}
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+    display: block;
+    margin:auto ;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+ button{
+    margin: 10px;
+}
+  
+/* media query */
+@media (max-width:767px){
+  .btn-1{
+    display: none;
+  }
+  .contact-card{
+    margin: 12px;
+  }
+  .contact-card h4{
+    font-size: 1.2rem;
+  }
+  .contact-container p{
+    font-size: 12px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+}

@@ -1,0 +1,57 @@
+/* medical */
+/* Medical */
+.medical h1{
+    font-size: 2rem;
+    display: block;
+    width: 100%;
+    margin:auto;
+}
+.medical-1{
+    margin: 10px;
+    box-shadow: .2px 0.2px 3px 0.1px #000;
+}
+.medical-1 img{
+    display: block;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.medical-1 h3{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+.medical-1 p{
+    font-size: 13px;
+}
+.medical-1 p a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+
+.medical .btn-1{
+    display: block;
+    width: 10%;
+    padding: 10px;
+    background-color: none;
+    margin: 10px auto;
+    border: 2px solid #000;
+    border-radius: 5px;
+}
+@media (max-width:767px){
+      /* medical-info */
+      .medical-container{
+        flex-direction: column;
+    }
+    .medical .btn-1{
+        width: 20%;
+    }
+    .medical-1 img{
+        width: 70%;
+    }
+    .medical-1 h3{
+        font-size: 1.2rem;
+        padding: 10px auto;
+    }
+}

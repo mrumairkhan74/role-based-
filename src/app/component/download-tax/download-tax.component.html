@@ -1,0 +1,30 @@
+<app-mhome></app-mhome>
+<div class="summary ">
+    <h1 class=" text-success border-bottom">All Tax Receipt</h1>
+    <div class="form d-flex">
+    <div class="dates">
+        <mat-form-field>
+            <mat-label>Enter a date range</mat-label>
+            <mat-date-range-input [rangePicker]="picker">
+              <input matStartDate placeholder="Start date">
+              <input matEndDate placeholder="End date">
+            </mat-date-range-input>
+            <mat-hint>MM/DD/YYYY – MM/DD/YYYY</mat-hint>
+            <mat-datepicker-toggle matIconSuffix [for]="picker">
+            </mat-datepicker-toggle>
+            <mat-date-range-picker #picker>
+            </mat-date-range-picker>
+          </mat-form-field>
+    </div>
+      <div class="btn">
+        <button class="btn btn-outline-primary active rounded-pill">Search</button>
+        <button class="btn btn-outline-primary  rounded-pill">Print</button>
+        <button class="btn btn-outline-primary  rounded-pill">Download</button>
+      </div>
+
+    </div>
+    <div class="tex-2 mt-5 px-3">
+        <p>You have not donation yet, <a href="/donate">Click Here</a>  to make your first donation.
+        </p>
+    </div>
+</div>

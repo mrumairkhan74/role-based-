@@ -1,0 +1,63 @@
+.contact {
+    background-image: url(../../../assets/bg01.jpeg);
+    background-repeat: repeat-y;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 130px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.breadcrumb-item {
+    color: aliceblue;
+}
+
+.head h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    display: block;
+    width: 100%;
+    margin: 8px auto;
+    color: aliceblue;
+}
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+    display: block;
+    margin:auto ;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+ button{
+    margin: 10px;
+}
+  
+@media (max-width:767px) {
+
+    .btn-1 {
+        display: none;
+    }
+
+    .breadcrumb-item {
+        font-size: 12px;
+        font-weight: 600;
+        color: antiquewhite;
+    }
+
+    .head {
+        display: block;
+    }
+
+    .head h1 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        display: block;
+        width: 100%;
+        margin:8px auto;
+        color: aliceblue;
+    }
+}

@@ -1,0 +1,74 @@
+<div class="nav-container" >
+    <div class="text">Transparent Hands provides free medical surgeries, treatments & organizes medical camps across
+        Pakistan.
+        <br><i>Tax exempted under IRS 501(c)(3)</i>
+    </div>
+    <div class="currency" style="width: 200px;">
+        <select>
+            <option value="1">USD</option>
+            <option value="2"> <img src="../../../assets/pkr.png" alt="">PKR</option>
+            <option value="3"><img src="../../../assets/uk.png" alt="">Pound</option>
+        </select>
+    </div>
+    <div *ngIf="ismenurequired">
+        <button class="btn btn-success p-2 m-1" routerLink="/login">Login</button>
+        <button class="btn btn-success p-2 m-1" routerLink="/register">Register</button>
+    </div>
+    <div *ngIf="isbuttonrequired">
+        <button class="btn btn-success p-2 m-1" routerLink="/home">Dashboard</button>
+        <button class="btn btn-success p-2 m-1" routerLink="">Logout</button>
+    </div>
+</div>
+<!-- navbar -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid mx-5">
+        <a class="navbar-brand" href="#"><img src="../../../assets/logo.png" width="50%" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Patients
+                    </a>
+                    <ul class="dropdown-menu px-3">
+                        <li><a class="dropdown-item pb-2 pt-2" href="#">Medical Procedures</a></li>
+                        <li><a class="dropdown-item pb-2 pt-2" href="#">Special Campaigns</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Surgeries
+                    </a>
+                    <ul class="dropdown-menu px-3">
+                        <li><a class="dropdown-item pb-2 pt-2" href="#">All Surgeries</a></li>
+                        <li><a class="dropdown-item pb-2 pt-2" href="#">Pediatric Surgeries</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Success Stories</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Medical Camps
+                    </a>
+                    <ul class="dropdown-menu px-3 " style="font-size: 1rem;">
+                        <li><a class="dropdown-item pb-2 pt-2" href="#">Upcoming Medical Camps</a></li>
+                        <li><a class="dropdown-item pb-2 pt-2" href="#">Completed Medical Camps</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" routerLink="/contact">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

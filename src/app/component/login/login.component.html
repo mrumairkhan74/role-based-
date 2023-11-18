@@ -1,0 +1,39 @@
+<div class="contact d-flex justify-content-between px-5 py-2">
+    <div class="head p-2 text-white align-items-center">
+        <h1>Login</h1>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item active" aria-current="page">Home</li>
+                <li class="breadcrumb-item active" aria-current="page">Login</li>
+            </ol>
+        </nav>
+    </div>
+    <div class="btn-1">
+        <button class="btn btn-danger p-4">Donate Now</button>
+    </div>
+</div>
+<mat-card>
+    <mat-card-header class="header">
+        <span>User Login</span>
+    </mat-card-header>
+    <mat-card-content>
+        <form class="example-form" [formGroup]="loginForm" (ngSubmit)="login()">
+
+            <!-- User email -->
+            <mat-form-field class="example-full-width">
+                <mat-label>User Name</mat-label>
+                <input matInput formControlName="username">
+            </mat-form-field>
+
+            <!-- User password -->
+            <mat-form-field class="example-full-width">
+                <mat-label>Password</mat-label>
+                <input type="password" matInput formControlName="password">
+            </mat-form-field>
+
+            <!-- button -->
+            <button class="btn btn-success">Login</button>
+            <a routerLink="/register" mat-raised-button color="success">New User?</a>
+        </form>
+    </mat-card-content>
+</mat-card>

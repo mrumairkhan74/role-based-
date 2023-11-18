@@ -1,0 +1,29 @@
+.summary{
+    margin: 10px 40px;
+    padding: 20px 30px;
+}
+
+.tex-2{
+    display: block;
+    width: 100%;
+
+}
+.tex-2 p{
+    font-size: 1.2rem;
+}
+.tex-2 p a{
+    text-decoration: none;
+}
+.text h2,
+.tex h1
+{
+    font-size: 1.5rem;
+}
+
+@media (max-width:767px){
+    .summary{
+        padding: 10px;
+    }
+    
+    
+}

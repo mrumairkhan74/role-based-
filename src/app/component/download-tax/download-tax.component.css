@@ -1,0 +1,63 @@
+.summary{
+    margin: 10px 40px;
+    padding: 20px 30px;
+}
+.from{
+align-items: center;
+}
+
+.btn{
+    font-size: 12px;
+    align-items: center;
+}
+.btn button{
+    color:#585775;
+    margin:10px 3px 0px 3px;
+}
+.btn button:hover,
+.btn button.active{
+    color: #fff;
+    background-color: #129207;
+}
+.tex-2{
+    display: block;
+    width: 100%;
+
+}
+.tex-2 p{
+    font-size: 1.2rem;
+}
+.tex-2 p a{
+    text-decoration: none;
+}
+.text h2,
+.tex h1
+{
+    font-size: 1.5rem;
+}
+
+@media (max-width:767px){
+    .summary{
+        padding: 10px;
+    }
+    .form{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .data{
+        display: block;
+        width: 100%;  
+    }
+    mat-form-field{
+        display: block;
+        width: 100%;
+        margin: 10px;
+    }
+    .btn button{
+        margin: 0px 2px;
+        letter-spacing: 1px;
+        font-size: 12px;
+    }
+    
+    
+}

@@ -1,0 +1,94 @@
+.summary{
+    margin: 10px 40px;
+    padding: 20px 30px;
+}
+.from{
+align-items: center;
+}
+.range{
+    display: block;
+    width: 30%;
+    margin: 10px;
+}
+.range select{
+    margin: auto;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+    margin: auto;
+    border: 1px solid #000 ;
+    border-radius: 10px;
+    margin-bottom:10px ;
+}
+
+.btn{
+    font-size: 12px;
+    align-items: center;
+}
+.btn button{
+    color:#585775;
+    margin:10px 3px 0px 3px;
+}
+.btn button:hover,
+.btn button.active{
+    color: #fff;
+    background-color: #129207;
+}
+.tex-2{
+    display: block;
+    width: 100%;
+
+}
+.tex-2 p{
+    font-size: 1.2rem;
+}
+.tex-2 p a{
+    text-decoration: none;
+}
+.text h2,
+.tex h1
+{
+    font-size: 1.5rem;
+}
+
+@media (max-width:767px){
+    .summary{
+        padding: 10px;
+    }
+    .form{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .range{
+        display: block;
+        width: 90%;
+    }
+    .range select{
+        display: block;
+        width: 100%;
+        padding: 10px 20px;
+        margin: auto;
+        border: 1px solid #000 ;
+        border-radius: 10px;
+        font-size: 1.2rem;
+        margin-bottom:10px ;
+    }
+    .data{
+        display: block;
+        width: 100%;
+        
+    }
+    mat-form-field{
+        display: block;
+        width: 100%;
+        margin: 10px;
+    }
+    .btn button{
+        margin: 0px 2px;
+        letter-spacing: 1px;
+        font-size: 12px;
+    }
+    
+    
+}
